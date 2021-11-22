@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 141, 70);
+}
+
+.ab-container{
+  background-color: rgb(59, 142, 180);
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+}
+
+ul li{
+  list-style: none;
+  line-height: 40px;
+  margin-left: -10px;
+}
